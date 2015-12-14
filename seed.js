@@ -33,33 +33,56 @@ function make_request(host, path, port, method, request_body){
 }
 
 // register medics;
-function create_user(email, first_name, last_name, scope, password) {
-	var post_data = {
-		email: email,
-		first_name: first_name,
-		last_name: last_name,
-		scope: scope,
-		password: password
-	}
-
+function create_user(post_data) {
 	make_request('localhost', '/api/registration', '8001', 'POST', post_data);
 }
 
-function update_medic(cpf, crm, specialty) {
-
+function update_medic(put_data) {
+	make_request('localhost', '/api/medic', '8006', 'PUT', put_data);
 }
 
-function update_pharmacist() {
-
+function update_pharmacist(put_data) {
+	make_request('localhost', '/api/pharmacist', '8006', 'PUT', put_data);
 }
 
-function create_medication(active_agent, label, dosage, bula, type, intake_mean, name, br_register, terapeutic_class, manufecturer, receipt_ok) {
-
+function create_medication(post_data) {
+	make_request('localhost', '/api/medications', '8006', 'POST', put_data);
 }
 
 /*
  *	Create all initial data on all services needed.
  */
 (function(){
-	create_user('asvins.poli@gmail.com', 'Dr', 'Medic 99', 'medic', '123456789');
+
+	// Medics
+	var medic1 = {
+		email: 'asvins.poli@gmail.com',
+		first_name: 'Dr',
+		last_name: 'Medic 100',
+		scope: 'medic',
+		password: '123456789',
+		cpf: '388.675.980-45',
+		crm: '2345967',
+		specialty: 1,
+	}
+
+
+	// Medications
+	var medication1 = {
+		active_agent: '', 
+		label: '', 
+		dosage: '', 
+		bula: '', 
+		type: '', 
+		intake_mean: '', 
+		name: '', 
+		br_register: '', 
+		terapeutic_class: '', 
+		manufecturer: '', 
+		receipt_ok: ''
+	}
+
+	// function calls
+	create_user(medic1);
+
 }());
