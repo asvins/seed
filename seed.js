@@ -124,7 +124,7 @@ function create_medication(post_data) {
 			name: 'Furacin', 
 			br_register: '1009301370333', 
 			terapeutic_class: 'Antiinfeccioso', 
-			manufecturer: 'Mantecorp', 
+			manufacturer: 'Mantecorp', 
 			receipt_ok: 1
 		},
 		{
@@ -137,7 +137,7 @@ function create_medication(post_data) {
 			name: 'Neosaldina', 
 			br_register: '1063902310082', 
 			terapeutic_class: 'Analgesico', 
-			manufecturer: 'Takeda', 
+			manufacturer: 'Takeda', 
 			receipt_ok: 0
 		},
 		{
@@ -150,7 +150,7 @@ function create_medication(post_data) {
 			name: 'Amoxil', 
 			br_register: '1010700030399', 
 			terapeutic_class: 'Antibiotico', 
-			manufecturer: 'GSK', 
+			manufacturer: 'GSK', 
 			receipt_ok: 1
 		},
 		{
@@ -163,7 +163,7 @@ function create_medication(post_data) {
 			name: 'Nisulid', 
 			br_register: '1057303010052', 
 			terapeutic_class: 'Antiinflamatorio', 
-			manufecturer: 'Ache', 
+			manufacturer: 'Ache', 
 			receipt_ok: 0
 		},
 		{
@@ -176,7 +176,7 @@ function create_medication(post_data) {
 			name: 'Omeprazol', 
 			br_register: '1018103370038', 
 			terapeutic_class: 'Anti-ulceroso', 
-			manufecturer: 'Medley', 
+			manufacturer: 'Medley', 
 			receipt_ok: 0
 		},
 		{
@@ -189,7 +189,7 @@ function create_medication(post_data) {
 			name: 'Trok', 
 			br_register: '1004308190031', 
 			terapeutic_class: 'Antifungico', 
-			manufecturer: 'Eurofarma', 
+			manufacturer: 'Eurofarma', 
 			receipt_ok: 0
 		},
 		{
@@ -202,7 +202,7 @@ function create_medication(post_data) {
 			name: 'Advil', 
 			br_register: '1211000560182', 
 			terapeutic_class: 'Analgesico', 
-			manufecturer: 'Pfizer', 
+			manufacturer: 'Pfizer', 
 			receipt_ok: 0
 		},
 		{
@@ -215,7 +215,7 @@ function create_medication(post_data) {
 			name: 'Gaviscon', 
 			br_register: '1739000020015', 
 			terapeutic_class: 'Antiacido', 
-			manufecturer: 'Reckitt Benckisser', 
+			manufacturer: 'Reckitt Benckisser', 
 			receipt_ok: 0
 		},
 		{
@@ -228,7 +228,7 @@ function create_medication(post_data) {
 			name: 'Claritin', 
 			br_register: '1009301690021', 
 			terapeutic_class: 'Alergia', 
-			manufecturer: 'MSD', 
+			manufacturer: 'MSD', 
 			receipt_ok: 0
 		},
 		{
@@ -241,7 +241,7 @@ function create_medication(post_data) {
 			name: 'Cataflam', 
 			br_register: '1006800380376', 
 			terapeutic_class: 'Antiinflamatorio', 
-			manufecturer: 'Novartis', 
+			manufacturer: 'Novartis', 
 			receipt_ok: 0
 		},
 		{
@@ -254,7 +254,7 @@ function create_medication(post_data) {
 			name: 'Loniten', 
 			br_register: '1238900070043', 
 			terapeutic_class: 'Anti-hipertensivo', 
-			manufecturer: 'Pfizer', 
+			manufacturer: 'Pfizer', 
 			receipt_ok: 0
 		},
 		{
@@ -267,7 +267,7 @@ function create_medication(post_data) {
 			name: 'Cardizem SR ', 
 			br_register: '1036700620237', 
 			terapeutic_class: 'Cardiovascular', 
-			manufecturer: 'Boehringer Ingelheim ', 
+			manufacturer: 'Boehringer Ingelheim ', 
 			receipt_ok: 0
 		},
 		{
@@ -280,7 +280,7 @@ function create_medication(post_data) {
 			name: 'Galvus', 
 			br_register: '1006810500048', 
 			terapeutic_class: 'Diabetes', 
-			manufecturer: 'Novartis', 
+			manufacturer: 'Novartis', 
 			receipt_ok: 0
 		},
 		{
@@ -293,7 +293,7 @@ function create_medication(post_data) {
 			name: 'Lantus', 
 			br_register: '1006810500048', 
 			terapeutic_class: 'Diabetes', 
-			manufecturer: 'Sanofi', 
+			manufacturer: 'Sanofi', 
 			receipt_ok: 1
 		},
 		{
@@ -306,7 +306,7 @@ function create_medication(post_data) {
 			name: 'Flanax', 
 			br_register: '1705600470122', 
 			terapeutic_class: 'Antiinflamatorio', 
-			manufecturer: 'Bayer', 
+			manufacturer: 'Bayer', 
 			receipt_ok: 0
 		},
 		{
@@ -319,7 +319,7 @@ function create_medication(post_data) {
 			name: 'Trezor', 
 			br_register: '1057304140049', 
 			terapeutic_class: 'Colesterol', 
-			manufecturer: 'Ache', 
+			manufacturer: 'Ache', 
 			receipt_ok: 0
 		},
 		{
@@ -332,7 +332,7 @@ function create_medication(post_data) {
 			name: 'Mucosolvan', 
 			br_register: '1036700730156', 
 			terapeutic_class: 'Expectorante', 
-			manufecturer: 'Boehringer Ingelheim', 
+			manufacturer: 'Boehringer Ingelheim', 
 			receipt_ok: 0
 		},
 		{
@@ -345,7 +345,7 @@ function create_medication(post_data) {
 			name: 'Ciprofloxacino', 
 			br_register: '100430739', 
 			terapeutic_class: 'Antibiotico', 
-			manufecturer: 'Sandoz', 
+			manufacturer: 'Sandoz', 
 			receipt_ok: 1
 		},
 		{
@@ -358,7 +358,7 @@ function create_medication(post_data) {
 			name: 'Estimoral', 
 			br_register: '1045401680024', 
 			terapeutic_class: 'Descongestionante', 
-			manufecturer: 'Daiichi Sankyo', 
+			manufacturer: 'Daiichi Sankyo', 
 			receipt_ok: 0
 		},
 		{
@@ -371,7 +371,7 @@ function create_medication(post_data) {
 			name: 'Tylenol', 
 			br_register: '1123633260445', 
 			terapeutic_class: 'Analgésico', 
-			manufecturer: 'Johnson & Johnson', 
+			manufacturer: 'Johnson & Johnson', 
 			receipt_ok: 0
 		},
 		{
@@ -384,7 +384,7 @@ function create_medication(post_data) {
 			name: 'Concor', 
 			br_register: '1008901940128', 
 			terapeutic_class: 'Anti-hipertensivo', 
-			manufecturer: 'Merck', 
+			manufacturer: 'Merck', 
 			receipt_ok: 1
 		},	
 		{
@@ -397,7 +397,7 @@ function create_medication(post_data) {
 			name: 'Zyloric', 
 			br_register: '1002500780015', 
 			terapeutic_class: 'Gota', 
-			manufecturer: 'Aspen', 
+			manufacturer: 'Aspen', 
 			receipt_ok: 0
 		}	
 	]
