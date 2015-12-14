@@ -206,7 +206,7 @@ function create_medication(post_data) {
 			receipt_ok: 0
 		},
 		{
-			active_agent: 'Carbonato de Calcio + Bicarbonato de Sodio + Alginato de sódio', 
+			active_agent: 'Carbonato de Calcio + Bicarbonato de Sodio + Alginato de sodio', 
 			label: 'none', 
 			dosage: '50mg', 
 			bula: 'http://www.gaviscon.com.br/media/286427/188_gaviscon_bula_verso_2-01.jpg', 
@@ -297,7 +297,7 @@ function create_medication(post_data) {
 			receipt_ok: 1
 		},
 		{
-			active_agent: 'Naproxeno Sódico', 
+			active_agent: 'Naproxeno Sodico', 
 			label: 'red', 
 			dosage: '550mg', 
 			bula: 'http://www.bayerconsumer.com.br/html/bulas/publico_geral/FLANAX_Unificada.pdf', 
