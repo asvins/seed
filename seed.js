@@ -56,9 +56,9 @@ function create_medication(post_data) {
 
 	// Medics
 	var medic1 = {
-		email: 'asvins.poli@gmail.com',
-		first_name: 'Dr',
-		last_name: 'Medic 100',
+		email: 'roberto.carvalho@asvins.com.br',
+		first_name: 'Roberto',
+		last_name: 'Carvalho',
 		scope: 'medic',
 		password: '123456789',
 		cpf: '388.675.980-45',
@@ -66,7 +66,49 @@ function create_medication(post_data) {
 		specialty: 1,
 	}
 
+	var medic2 = {
+		email: 'silvia.gastro@asvins.com.br',
+		first_name: 'Silvia',
+		last_name: 'Teles',
+		scope: 'medic',
+		password: '123456789',
+		cpf: '230.543.765-50',
+		crm: '34512',
+		specialty: 2,
+	}
 
+	var medic3 = {
+		email: 'aberlto@asvins.com.br',
+		first_name: 'Carlos Alberto',
+		last_name: 'Garcia',
+		scope: 'medic',
+		password: '123456789',
+		cpf: '125.678.390-10',
+		crm: '23478',
+		specialty: 3,
+	}
+	
+	var medic4 = {
+		email: 'silva@asvins.com.br',
+		first_name: 'Ana Costa',
+		last_name: 'Silva',
+		scope: 'medic',
+		password: '123456789',
+		cpf: '140.568.450-38',
+		crm: '86532',
+		specialty: 4,
+	}
+''
+	var medic5 = {
+		email: 'camargo@asvins.com.br',
+		first_name: 'Vera Lucia',
+		last_name: 'Camargo',
+		scope: 'medic',
+		password: '123456789',
+		cpf: '060.743.123-77',
+		crm: '123548',
+		specialty: 5,
+	}
 	// Medications
 	var medication1 = {
 		active_agent: 'Nitrofural', 
