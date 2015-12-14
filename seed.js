@@ -120,7 +120,7 @@ function create_medication(post_data) {
 			dosage: '2mg', 
 			bula: 'http://www.anvisa.gov.br/datavisa/fila_bula/frmVisualizarBula.asp?pNuTransacao=786192015&pIdAnexo=2424814', 
 			type: 'ointment', 
-			intake_mean: 'Uso tópico', 
+			intake_mean: 'Uso topico', 
 			name: 'Furacin', 
 			br_register: '1009301370333', 
 			terapeutic_class: 'Antiinfeccioso', 
@@ -136,7 +136,7 @@ function create_medication(post_data) {
 			intake_mean: 'Via oral', 
 			name: 'Neosaldina', 
 			br_register: '1063902310082', 
-			terapeutic_class: 'Analgésico', 
+			terapeutic_class: 'Analgesico', 
 			manufecturer: 'Takeda', 
 			receipt_ok: 0
 		},
@@ -149,7 +149,7 @@ function create_medication(post_data) {
 			intake_mean: 'Via oral', 
 			name: 'Amoxil', 
 			br_register: '1010700030399', 
-			terapeutic_class: 'Antibiótico', 
+			terapeutic_class: 'Antibiotico', 
 			manufecturer: 'GSK', 
 			receipt_ok: 1
 		},
@@ -162,7 +162,7 @@ function create_medication(post_data) {
 			intake_mean: 'Via oral', 
 			name: 'Nisulid', 
 			br_register: '1057303010052', 
-			terapeutic_class: 'Antiinflamatório', 
+			terapeutic_class: 'Antiinflamatorio', 
 			manufecturer: 'Ache', 
 			receipt_ok: 0
 		},
@@ -175,7 +175,7 @@ function create_medication(post_data) {
 			intake_mean: 'Via oral', 
 			name: 'Omeprazol', 
 			br_register: '1018103370038', 
-			terapeutic_class: 'Anti-úlceroso', 
+			terapeutic_class: 'Anti-ulceroso', 
 			manufecturer: 'Medley', 
 			receipt_ok: 0
 		},
@@ -185,10 +185,10 @@ function create_medication(post_data) {
 			dosage: '20mg', 
 			bula: 'http://www.medicinanet.com.br/bula/5193/trok.htm', 
 			type: 'ointment', 
-			intake_mean: 'Uso tópico', 
+			intake_mean: 'Uso topico', 
 			name: 'Trok', 
 			br_register: '1004308190031', 
-			terapeutic_class: 'Antifúngico', 
+			terapeutic_class: 'Antifungico', 
 			manufecturer: 'Eurofarma', 
 			receipt_ok: 0
 		},
@@ -201,7 +201,7 @@ function create_medication(post_data) {
 			intake_mean: 'Via oral', 
 			name: 'Advil', 
 			br_register: '1211000560182', 
-			terapeutic_class: 'Analgésico', 
+			terapeutic_class: 'Analgesico', 
 			manufecturer: 'Pfizer', 
 			receipt_ok: 0
 		},
@@ -214,7 +214,7 @@ function create_medication(post_data) {
 			intake_mean: 'Via oral', 
 			name: 'Gaviscon', 
 			br_register: '1739000020015', 
-			terapeutic_class: 'Antiácido', 
+			terapeutic_class: 'Antiacido', 
 			manufecturer: 'Reckitt Benckisser', 
 			receipt_ok: 0
 		},
@@ -240,7 +240,7 @@ function create_medication(post_data) {
 			intake_mean: 'Via oral', 
 			name: 'Cataflam', 
 			br_register: '1006800380376', 
-			terapeutic_class: 'Antiinflamatório', 
+			terapeutic_class: 'Antiinflamatorio', 
 			manufecturer: 'Novartis', 
 			receipt_ok: 0
 		},
@@ -289,7 +289,7 @@ function create_medication(post_data) {
 			dosage: '100u/ml', 
 			bula: 'www.4bio.com.br/download/pdf/121/121-lantus-solostar.pdf/', 
 			type: 'liquid', 
-			intake_mean: 'Injetável', 
+			intake_mean: 'Injetavel', 
 			name: 'Lantus', 
 			br_register: '1006810500048', 
 			terapeutic_class: 'Diabetes', 
@@ -305,7 +305,7 @@ function create_medication(post_data) {
 			intake_mean: 'Via oral', 
 			name: 'Flanax', 
 			br_register: '1705600470122', 
-			terapeutic_class: 'Antiinflamatório', 
+			terapeutic_class: 'Antiinflamatorio', 
 			manufecturer: 'Bayer', 
 			receipt_ok: 0
 		},
@@ -344,7 +344,7 @@ function create_medication(post_data) {
 			intake_mean: 'Via oral', 
 			name: 'Ciprofloxacino', 
 			br_register: '100430739', 
-			terapeutic_class: 'Antibiótico', 
+			terapeutic_class: 'Antibiotico', 
 			manufecturer: 'Sandoz', 
 			receipt_ok: 1
 		},
