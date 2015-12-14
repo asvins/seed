@@ -46,7 +46,7 @@ function update_pharmacist(put_data) {
 }
 
 function create_medication(post_data) {
-	make_request('localhost', '/api/medications', '8006', 'POST', put_data);
+	make_request('localhost', '/api/medications', '8006', 'POST', post_data);
 }
 
 /*
@@ -57,7 +57,7 @@ function create_medication(post_data) {
 	/*
 	 *	Medics
 	 */
-	var medics [
+	var medics = [
 		{
 			email: 'roberto.carvalho@asvins.com.br',
 			first_name: 'Roberto',
@@ -125,7 +125,7 @@ function create_medication(post_data) {
 			br_register: '1009301370333', 
 			terapeutic_class: 'Antiinfeccioso', 
 			manufecturer: 'Mantecorp', 
-			receipt_ok: '1'
+			receipt_ok: 1
 		},
 		{
 			active_agent: 'Dipirona Sodica', 
@@ -138,7 +138,7 @@ function create_medication(post_data) {
 			br_register: '1063902310082', 
 			terapeutic_class: 'Analgésico', 
 			manufecturer: 'Takeda', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Amoxicilina', 
@@ -151,7 +151,7 @@ function create_medication(post_data) {
 			br_register: '1010700030399', 
 			terapeutic_class: 'Antibiótico', 
 			manufecturer: 'GSK', 
-			receipt_ok: '1'
+			receipt_ok: 1
 		},
 		{
 			active_agent: 'Nimesulida', 
@@ -164,7 +164,7 @@ function create_medication(post_data) {
 			br_register: '1057303010052', 
 			terapeutic_class: 'Antiinflamatório', 
 			manufecturer: 'Ache', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Omeprazol', 
@@ -177,7 +177,7 @@ function create_medication(post_data) {
 			br_register: '1018103370038', 
 			terapeutic_class: 'Anti-úlceroso', 
 			manufecturer: 'Medley', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Cetoconazol', 
@@ -190,7 +190,7 @@ function create_medication(post_data) {
 			br_register: '1004308190031', 
 			terapeutic_class: 'Antifúngico', 
 			manufecturer: 'Eurofarma', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Ibuprofeno', 
@@ -203,7 +203,7 @@ function create_medication(post_data) {
 			br_register: '1211000560182', 
 			terapeutic_class: 'Analgésico', 
 			manufecturer: 'Pfizer', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Carbonato de Calcio + Bicarbonato de Sodio + Alginato de sódio', 
@@ -216,7 +216,7 @@ function create_medication(post_data) {
 			br_register: '1739000020015', 
 			terapeutic_class: 'Antiácido', 
 			manufecturer: 'Reckitt Benckisser', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Loratadina', 
@@ -229,7 +229,7 @@ function create_medication(post_data) {
 			br_register: '1009301690021', 
 			terapeutic_class: 'Alergia', 
 			manufecturer: 'MSD', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Diclofenaco Potassico', 
@@ -242,7 +242,7 @@ function create_medication(post_data) {
 			br_register: '1006800380376', 
 			terapeutic_class: 'Antiinflamatório', 
 			manufecturer: 'Novartis', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Minoxidil', 
@@ -255,7 +255,7 @@ function create_medication(post_data) {
 			br_register: '1238900070043', 
 			terapeutic_class: 'Anti-hipertensivo', 
 			manufecturer: 'Pfizer', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Diltiazem', 
@@ -268,7 +268,7 @@ function create_medication(post_data) {
 			br_register: '1036700620237', 
 			terapeutic_class: 'Cardiovascular', 
 			manufecturer: 'Boehringer Ingelheim ', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Vildagliptina', 
@@ -281,7 +281,7 @@ function create_medication(post_data) {
 			br_register: '1006810500048', 
 			terapeutic_class: 'Diabetes', 
 			manufecturer: 'Novartis', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Insulina Glargina', 
@@ -294,7 +294,7 @@ function create_medication(post_data) {
 			br_register: '1006810500048', 
 			terapeutic_class: 'Diabetes', 
 			manufecturer: 'Sanofi', 
-			receipt_ok: '1'
+			receipt_ok: 1
 		},
 		{
 			active_agent: 'Naproxeno Sódico', 
@@ -307,7 +307,7 @@ function create_medication(post_data) {
 			br_register: '1705600470122', 
 			terapeutic_class: 'Antiinflamatório', 
 			manufecturer: 'Bayer', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Rosuvastatina Calcica', 
@@ -320,7 +320,7 @@ function create_medication(post_data) {
 			br_register: '1057304140049', 
 			terapeutic_class: 'Colesterol', 
 			manufecturer: 'Ache', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Cloridrato de Ambroxol', 
@@ -333,7 +333,7 @@ function create_medication(post_data) {
 			br_register: '1036700730156', 
 			terapeutic_class: 'Expectorante', 
 			manufecturer: 'Boehringer Ingelheim', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Ciprofloxacino', 
@@ -346,7 +346,7 @@ function create_medication(post_data) {
 			br_register: '100430739', 
 			terapeutic_class: 'Antibiótico', 
 			manufecturer: 'Sandoz', 
-			receipt_ok: '1'
+			receipt_ok: 1
 		},
 		{
 			active_agent: 'Lisado Bacteriano', 
@@ -359,7 +359,7 @@ function create_medication(post_data) {
 			br_register: '1045401680024', 
 			terapeutic_class: 'Descongestionante', 
 			manufecturer: 'Daiichi Sankyo', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Paracetamol', 
@@ -372,7 +372,7 @@ function create_medication(post_data) {
 			br_register: '1123633260445', 
 			terapeutic_class: 'Analgésico', 
 			manufecturer: 'Johnson & Johnson', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		},
 		{
 			active_agent: 'Hemifumarato de Bisoprolol', 
@@ -385,7 +385,7 @@ function create_medication(post_data) {
 			br_register: '1008901940128', 
 			terapeutic_class: 'Anti-hipertensivo', 
 			manufecturer: 'Merck', 
-			receipt_ok: '1'
+			receipt_ok: 1
 		},	
 		{
 			active_agent: 'Alopurinol', 
@@ -398,14 +398,44 @@ function create_medication(post_data) {
 			br_register: '1002500780015', 
 			terapeutic_class: 'Gota', 
 			manufecturer: 'Aspen', 
-			receipt_ok: '0'
+			receipt_ok: 0
 		}	
 	]
 
 
 	/*
-	 *	Creation
+	 *	medics Creation
 	 */
-	create_user(medic1);
+	var j = 0;                     
+	function medicsLoop () {          
+		setTimeout(function () {   
+			create_user(medics[j])
+			j++;                    
+			if (j < medics.length) {
+				medicsLoop();             
+			}                      
+		}, 3000)
+	}
+
+	medicsLoop(); 
+
+
+	
+	/*
+	 *	Medications creation
+	 */
+	var i = 0;                     
+	function medicationsLoop () {          
+		setTimeout(function () {   
+			create_medication(medications[i])
+			i++;                    
+			if (i < medications.length) {
+				medicationsLoop();             
+			}                      
+		}, 3000)
+	}
+
+	medicationsLoop(); 
+
 
 }());
