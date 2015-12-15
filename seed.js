@@ -287,7 +287,7 @@ function create_medication(post_data) {
 			active_agent: 'Insulina Glargina', 
 			label: 'red', 
 			dosage: '100u/ml', 
-			bula: 'www.4bio.com.br/download/pdf/121/121-lantus-solostar.pdf/', 
+			bula: 'http://www.4bio.com.br/download/pdf/121/121-lantus-solostar.pdf/', 
 			type: 'liquid', 
 			intake_mean: 'Injetavel', 
 			name: 'Lantus', 
